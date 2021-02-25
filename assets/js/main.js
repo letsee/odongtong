@@ -112,7 +112,7 @@
       }
     })
   }
-  const cameraAudio = new Audio('/odongtong/assets/mp3/camera-sound.mp3')
+  const cameraAudio = new Audio('./assets/mp3/camera-sound.mp3')
   const takeScreenShot = () => {
     document.querySelector('.btn-take').addEventListener('click', (e) => {
       cameraAudio.play().then(() => {
