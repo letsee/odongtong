@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="750" height="750.001" viewBox="0 0 750 750.001">
+  <defs>
+    <filter id="봉지면가이드라인" x="185.425" y="148.455" width="380.089" height="456" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="봉지면가이드라인-2" data-name="봉지면가이드라인" transform="translate(0 -150)">
+    <path id="봉지면dim영역" d="M-18,634H-768V-116H-18V634ZM-225.506,51h0l-334.086,0-.163,2.326c-.146,2.064-3.331,51.034,18.158,93.353-.2,4.411-1.926,44.435-2.111,91.071-.105,26.484.3,50.312,1.214,70.821,1.125,25.344,3.027,45.738,5.653,60.615-2.295,5.553-22.441,54.681-23.134,69.57l0,23.444H-225.3V438.1l-.023-.336c-.22-1.619-5.57-40-21.935-69.6,1.534-11.368,14.545-114.106-.639-219.663a155,155,0,0,0,14.361-31.221,167.442,167.442,0,0,0,7.049-28.93,150.622,150.622,0,0,0,1.176-35.069Z" transform="translate(768 266)" opacity="0.65"/>
+    <g transform="matrix(1, 0, 0, 1, 0, 150)" filter="url(#봉지면가이드라인)">
+      <path id="봉지면가이드라인-3" data-name="봉지면가이드라인" d="M3685.574,262.8s-3.544,50.321,18.182,92.583c0,0-7.319,155.9,4.815,223.225,0,0-22.5,54.1-23.211,69.37V668.8h329.488V647.2s-5.393-39.794-22.034-69.409c0,0,15.639-108.508-.655-220.6,0,0,27.234-41.3,22.688-94.4Z" transform="translate(-3474.86 -93.34)" fill="none" stroke="#f23f00" stroke-miterlimit="10" stroke-width="5"/>
+    </g>
+  </g>
+</svg>

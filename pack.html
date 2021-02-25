@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" id="pack">
+<head>
+  <meta charset="UTF-8">
+  <title>Letsee WebAR SDK Test WebApp</title>
+  <script src="letsee.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.min.js"></script>
+  <script src="https://unpkg.com/html2canvas@1.0.0-rc.7/dist/html2canvas.js"></script>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <style media="place" type="text/css">
+    #container {
+        -letsee-target: uri('dongtong-pack.json');
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="header">
+      <h1 class="title"><span class="blind">오동통면</span></h1>
+    </div>
+    <div class="controller">
+      <ul class="theme-list">
+        <li class="empty">
+          <input type="radio" id="empty" name="theme" class="blind" checked>
+          <label for="empty"><span class="blind">테마 없음</span></label>
+        </li>
+        <li class="theme-1">
+          <input type="radio" id="theme1" name="theme" class="blind">
+          <label for="theme1"><span class="blind">테마1</span></label>
+        </li>
+        <li class="theme-2">
+          <input type="radio" id="theme2" name="theme" class="blind">
+          <label for="theme2"><span class="blind">테마2</span></label>
+        </li>
+        <li class="theme-3">
+          <input type="radio" id="theme3" name="theme" class="blind">
+          <label for="theme3"><span class="blind">테마3</span></label>
+        </li>
+      </ul>
+      <div class="event-take">
+        <div class="inner">
+          <button type="button" class="btn-retake"><span class="blind">다시 촬영</span></button>
+          <button type="button" class="btn-take"><span class="blind">촬영</span></button>
+          <a href="" class="link-join-event"><span class="blind">참여 완료</span></a>
+        </div>
+      </div>
+    </div>
+    <div class="theme-frame">
+      <span class="top"></span>
+      <span class="bottom"></span>
+    </div>
+    <div class="guide">
+      <span class="line"></span>
+      <p class="text">멀티팩 정면을<br />가이드라인에 맞춰주세요.</p>
+    </div>
+    <div class="took-screenshot-notice">
+      <div class="inner">
+        <strong class="title">오동이 소환 완료!</strong><br /><br />
+        <p class="text">
+          경품 추첨을 위해 이벤트 페이지로 돌아가 이름과 연락처를 입력해주세요!</p>
+        <div class="arrows">
+          <span class="arrow type-left">다시<br />촬영하기</span>
+          <span class="arrow type-right">이벤트 페이지<br />돌아가기</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="container">
+    <div class="animate-image img-0"></div>
+  </div>
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>
