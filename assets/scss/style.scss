@@ -550,18 +550,21 @@ input, select {
 }
 
 #normal .animate-image {
-  width: 340px;
-  height: 340px;
+  width: 180%;
+  height: 180%;
+  margin: -40% 0 0 -40%;
 }
 
 #cup .animate-image {
-  width: 300px;
-  height: 300px;
+  width: 140%;
+  height: 140%;
+  margin: -20% 0 0 -20%;
 }
 
 #pack .animate-image {
-  width: 340px;
-  height: 340px;
+  width: 140%;
+  height: 140%;
+  margin: -20% 0 0 -20%;
 }
 
 $normalCount: 59;
